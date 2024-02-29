@@ -26,7 +26,7 @@ const LoginScreen = () => {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#f5f5f5'
+    backgroundColor: "#4e55f9"
   },
   keyboardView: {
     flex: 1,
@@ -44,7 +44,7 @@ const styles = StyleSheet.create({
     width: '80%'
   },
   input: {
-    backgroundColor: '#fff',
+    backgroundColor: "#a8a1d0",
     paddingHorizontal: 15,
     paddingVertical: 10,
     borderRadius: 5,
