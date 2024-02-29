@@ -20,7 +20,7 @@ const LoginScreen = () => {
           </TouchableOpacity>
         </View>
       </KeyboardAvoidingView>
-    </SafeAreaView>;
+    <View style={styles.WIwNIpwP}></View></SafeAreaView>;
 };
 
 const styles = StyleSheet.create({
@@ -60,6 +60,16 @@ const styles = StyleSheet.create({
   buttonText: {
     color: "#fff",
     fontSize: 16
+  },
+  WIwNIpwP: {
+    height: 60,
+    width: 140,
+    backgroundColor: "#E4E4E4",
+    borderRadius: 0,
+    color: "#777777",
+    flexDirection: "row",
+    flex: 1,
+    alignItems: "stretch"
   }
 });
 export default LoginScreen;

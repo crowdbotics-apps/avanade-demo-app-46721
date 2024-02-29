@@ -18,7 +18,7 @@ const WelcomeScreen = () => {
 
 const styles = StyleSheet.create({
   container: {
-    backgroundColor: "#F8F8FC",
+    backgroundColor: "#cacadb",
     height: "100%"
   },
   scrollView: {
