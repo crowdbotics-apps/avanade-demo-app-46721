@@ -1,15 +1,15 @@
 javascript;
-import React, { useState } from 'react';
-import { SafeAreaView, StyleSheet, View, Text, TextInput, TouchableOpacity, Image, KeyboardAvoidingView, Platform } from 'react-native';
+import React, { useState } from "react";
+import { SafeAreaView, StyleSheet, View, Text, TextInput, TouchableOpacity, Image, KeyboardAvoidingView, Platform } from "react-native";
 
 const LoginScreen = () => {
-  const [email, setEmail] = useState('');
-  const [password, setPassword] = useState('');
+  const [email, setEmail] = useState("");
+  const [password, setPassword] = useState("");
   return <SafeAreaView style={styles.container}>
       <KeyboardAvoidingView behavior={Platform.OS === "ios" ? "padding" : "height"} style={styles.keyboardView}>
         <View style={styles.logoContainer}>
           <Image source={{
-          uri: 'https://tinyurl.com/42evm3m3'
+          uri: "https://tinyurl.com/42evm3m3"
         }} style={styles.logo} />
         </View>
         <View style={styles.inputContainer}>
@@ -30,8 +30,8 @@ const styles = StyleSheet.create({
   },
   keyboardView: {
     flex: 1,
-    justifyContent: 'center',
-    alignItems: 'center'
+    justifyContent: "center",
+    alignItems: "center"
   },
   logoContainer: {
     marginBottom: 60
@@ -41,7 +41,7 @@ const styles = StyleSheet.create({
     height: 100
   },
   inputContainer: {
-    width: '80%'
+    width: "80%"
   },
   input: {
     backgroundColor: "#a8a1d0",
@@ -52,13 +52,13 @@ const styles = StyleSheet.create({
     fontSize: 16
   },
   button: {
-    backgroundColor: '#007bff',
+    backgroundColor: "#007bff",
     padding: 15,
     borderRadius: 5,
-    alignItems: 'center'
+    alignItems: "center"
   },
   buttonText: {
-    color: '#fff',
+    color: "#fff",
     fontSize: 16
   }
 });
